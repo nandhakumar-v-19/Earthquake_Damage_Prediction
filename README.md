@@ -1,10 +1,10 @@
-# 📘 Earthquake Damage Prediction (PRCP-1015)
+#  Earthquake Damage Prediction (PRCP-1015)
 
 *A 5-Day Machine Learning Project using the DrivenData PRCP-1015 Dataset*  
 
 ---
 
-# 👥 **Team Members**
+#  **Team Members**
 - **Nandhakumar (Team Lead)**
 - **Swetha**
 - **Rehana**
@@ -12,7 +12,7 @@
 
 ---
 
-# 🎯 **Project Objective**
+#  **Project Objective**
 This project predicts the **damage grade of buildings** affected by the  
 **2015 Gorkha Earthquake (Nepal)** using machine learning.
 
@@ -29,16 +29,16 @@ https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1015-E
 
 ---
 
-# 📅 **5-Day Project Timeline**
+#  **5-Day Project Timeline**
 
-## **🟦 Day 1 – Dataset Setup + EDA (Part 1)**
+## ** Day 1 – Dataset Setup + EDA (Part 1)**
 - Load & merge data  
 - Summary statistics  
 - Target distribution  
 - Numeric and categorical feature exploration  
 - Geo-level insights  
 
-## **🟩 Day 2 – Deep EDA (Part 2) + Feature Engineering**
+## ** Day 2 – Deep EDA (Part 2) + Feature Engineering**
 - Outlier detection & IQR capping  
 - One-hot encoding  
 - Frequency encoding (geo-levels)  
@@ -50,7 +50,7 @@ https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1015-E
   - secondary_use_count  
   - age_buckets  
 
-## **🟧 Day 3 – Machine Learning Models**
+## ** Day 3 – Machine Learning Models**
 We trained **6 models**:
 
 | Model | Status |
@@ -60,27 +60,27 @@ We trained **6 models**:
 | Random Forest | ✔ |
 | XGBoost | ✔ |
 | LightGBM | ✔ |
-| **CatBoost** | ⭐ **Best model** |
+| **CatBoost** |  **Best model** |
 
 Evaluation Metrics:
 - Accuracy  
 - Macro F1 Score (important due to class imbalance)
 
-## **🟥 Day 4 – Reports**
+## ** Day 4 – Reports**
 - Full EDA Report  
 - Predictive Model Report  
 - Model Comparison Table  
 - Seismologist Recommendations  
 - Challenges and solutions  
 
-## **🟪 Day 5 – Finalization**
+## ** Day 5 – Finalization**
 - Notebook cleanup  
 - README creation  
 - Submission packaging  
 
 ---
 
-# 📊 **1. Exploratory Data Analysis (EDA)**
+#  **1. Exploratory Data Analysis (EDA)**
 
 ## **Dataset Insights**
 - 260,601 buildings  
@@ -97,7 +97,7 @@ Evaluation Metrics:
 
 ---
 
-# ⚙️ **2. Data Preprocessing**
+#  **2. Data Preprocessing**
 
 ### ✔ Outlier handling (IQR method)  
 ### ✔ One-hot encoding for low-cardinality features  
@@ -108,7 +108,7 @@ Evaluation Metrics:
 
 ---
 
-# 🤖 **3. Machine Learning Models**
+#  **3. Machine Learning Models**
 
 ## **Models Used**
 - Logistic Regression  
@@ -125,22 +125,22 @@ Evaluation Metrics:
 
 ---
 
-# 🧠 **4. Recommendations for Seismologists**
+#  **4. Recommendations for Seismologists**
 
-### **1️⃣ Improve Building Materials**
+### ** Improve Building Materials**
 - Avoid mud/adobe/stone  
 - Promote engineered RC structures  
 - Use proper curing & load distribution  
 
-### **2️⃣ Improve Building Stability**
+### ** Improve Building Stability**
 - Lower height-to-area ratios  
 - Avoid extremely tall narrow structures  
 
-### **3️⃣ Region-Based Mitigation**
+### ** Region-Based Mitigation**
 - Strengthen codes in high-damage geo clusters  
 - Target retrofitting for old buildings  
 
-### **4️⃣ Prioritize Secondary Use Buildings**
+### ** Prioritize Secondary Use Buildings**
 - Schools  
 - Hospitals  
 - Rental & commercial spaces  
@@ -148,7 +148,7 @@ Evaluation Metrics:
 
 ---
 
-# ⚠️ **5. Challenges & Solutions**
+#  **5. Challenges & Solutions**
 
 | Challenge | Solution |
 |----------|----------|
@@ -172,9 +172,4 @@ This project delivers:
 The final model (**CatBoost**) performs best in predicting ordinal earthquake damage (1, 2, 3).
 
 ---
-
-# 🙌 **Acknowledgements**
-- DrivenData (dataset)  
-- MDST Faculty  
-- Team SeismoShield Members  
 
