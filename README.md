@@ -6,10 +6,9 @@
 
 #  **Team Members**
 - **Nandhakumar (Team Lead)**
+- **Suvaathii**
 - **Swetha**
 - **Rehana**
-- **Suvaathii**
-
 ---
 
 #  **Project Objective**
@@ -31,14 +30,14 @@ https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1015-E
 
 #  **5-Day Project Timeline**
 
-## ** Day 1 – Dataset Setup + EDA (Part 1)**
+## **Day 1 – Dataset Setup + EDA (Part 1)**
 - Load & merge data  
 - Summary statistics  
 - Target distribution  
 - Numeric and categorical feature exploration  
 - Geo-level insights  
 
-## ** Day 2 – Deep EDA (Part 2) + Feature Engineering**
+## **Day 2 – Deep EDA (Part 2) + Feature Engineering**
 - Outlier detection & IQR capping  
 - One-hot encoding  
 - Frequency encoding (geo-levels)  
@@ -50,7 +49,7 @@ https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1015-E
   - secondary_use_count  
   - age_buckets  
 
-## ** Day 3 – Machine Learning Models**
+## **Day 3 – Machine Learning Models**
 We trained **6 models**:
 
 | Model | Status |
@@ -66,14 +65,14 @@ Evaluation Metrics:
 - Accuracy  
 - Macro F1 Score (important due to class imbalance)
 
-## ** Day 4 – Reports**
+## **Day 4 – Reports**
 - Full EDA Report  
 - Predictive Model Report  
 - Model Comparison Table  
 - Seismologist Recommendations  
 - Challenges and solutions  
 
-## ** Day 5 – Finalization**
+## **Day 5 – Finalization**
 - Notebook cleanup  
 - README creation  
 - Submission packaging  
@@ -127,20 +126,20 @@ Evaluation Metrics:
 
 #  **4. Recommendations for Seismologists**
 
-### ** Improve Building Materials**
+### **Improve Building Materials**
 - Avoid mud/adobe/stone  
 - Promote engineered RC structures  
 - Use proper curing & load distribution  
 
-### ** Improve Building Stability**
+### **Improve Building Stability**
 - Lower height-to-area ratios  
 - Avoid extremely tall narrow structures  
 
-### ** Region-Based Mitigation**
+### **Region-Based Mitigation**
 - Strengthen codes in high-damage geo clusters  
 - Target retrofitting for old buildings  
 
-### ** Prioritize Secondary Use Buildings**
+### **Prioritize Secondary Use Buildings**
 - Schools  
 - Hospitals  
 - Rental & commercial spaces  
@@ -160,7 +159,7 @@ Evaluation Metrics:
 
 ---
 
-# 🏁 **Conclusion**
+# **Conclusion**
 This project delivers:
 - A full EDA report  
 - Complete preprocessing pipeline  
